@@ -21,7 +21,7 @@ namespace eval ::jquery {
         @return Returns a URL that can be used to include the jQuery library.
     } {
         # TODO: Use a package parameter to include an arbitrary jQuery lib.
-        return "/resources/jquery/jquery-1.6.4.min.js"
+        return "/resources/jquery/dist/jquery.js"
     }
 
 }
